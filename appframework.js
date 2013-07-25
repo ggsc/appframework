@@ -1280,6 +1280,23 @@ if (!window.af || typeof(af) !== "function") {
                 return this.setupOld($((elems)).filter(selector));
 
             },
+            
+            /*
+            *  Ruturns the first of the element base off the selector
+                ````
+               copy for zepto
+               $('.a').first()
+               ````
+               
+               * @return {Object} a appframework object
+               * @title $('#sel').first()
+               *
+            */
+            first: function(){
+                var el = this[0];
+                return el && !_isObject(el) ? el : $(el)
+            },
+            
             /**
             * Returns the siblings of the element based off the selector
                 ```
