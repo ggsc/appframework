@@ -13,7 +13,7 @@ if (!window.af || typeof(af) !== "function") {
  
     /**
      *  In some Android 2.1 mobiles there is no method "trim" for string object native
-     *  for exaple: the ua is Mozilla/5.0 (Linux; U; Android 2.1; zh-cn; D530 Build/ERD79) 
+     *  for example: the ua is Mozilla/5.0 (Linux; U; Android 2.1; zh-cn; D530 Build/ERD79) 
      *       AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17
      * 
      *  @overidde
